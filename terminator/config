@@ -1,0 +1,26 @@
+[global_config]
+  focus = system
+  extra_styling = False
+  tab_position = hidden
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#ffffff"
+    background_darkness = 0.6
+    background_type = transparent
+    font = Noto Sans Mono 10
+    foreground_color = "#3d3846"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#000000:#aa0000:#57e389:#aa5500:#813d9c:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#33d17a:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    use_system_font = False
+    title_hide_sizetext = True
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
